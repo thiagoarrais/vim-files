@@ -20,3 +20,6 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 set hlsearch
 nnoremap <Leader>s :noh<CR>
+
+" Clear trailing spaces
+autocmd BufWritePre *.{rb,js,coffee,cc,cpp,c} :%s/\s\+$//e

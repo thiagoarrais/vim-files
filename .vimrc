@@ -16,3 +16,6 @@ set autoindent
 " Store temporary files in a central spot
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+
+set hlsearch
+nnoremap <Leader>s :noh<CR>

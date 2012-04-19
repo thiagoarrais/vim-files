@@ -7,6 +7,7 @@ set background=dark
 colorscheme solarized
 
 set cursorline
+nnoremap <Leader>c :set cursorcolumn!<CR>
 
 set expandtab
 set shiftwidth=2

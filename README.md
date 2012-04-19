@@ -12,3 +12,6 @@ To use it:
     cd .vim
     git submodule init
     git submodule update
+    cd bundle/command-t
+    bundle install
+    rake make

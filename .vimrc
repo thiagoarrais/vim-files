@@ -23,3 +23,5 @@ nnoremap <Leader>s :noh<CR>
 
 " Clear trailing spaces
 autocmd BufWritePre *.{rb,js,coffee,cc,cpp,c} :%s/\s\+$//e
+
+nnoremap <Leader>e :NERDTree .<CR>

@@ -9,6 +9,8 @@ colorscheme solarized
 set cursorline
 nnoremap <Leader>c :set cursorcolumn!<CR>
 
+set nowrap
+
 set expandtab
 set shiftwidth=2
 set softtabstop=2
